@@ -1,17 +1,15 @@
 <idea-plugin version="2">
-    <id>com.zone.unique.plugin.id</id>
+    <id>com.zone.unique.plugin.space</id>
     <name>SpaceCheck</name>
     <version>1.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="1149324777@qq.com" url="">YourCompany</vendor>
 
     <description><![CDATA[
       String space check.<br>
-      <em>most HTML tags may be used</em>
     ]]></description>
 
     <change-notes><![CDATA[
       Add change notes here.<br>
-      <em>most HTML tags may be used</em>
     ]]>
     </change-notes>
 
