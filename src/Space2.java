@@ -5,13 +5,10 @@ import com.intellij.openapi.actionSystem.CommonDataKeys;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.Editor;
-import com.intellij.openapi.editor.colors.EditorColors;
 import com.intellij.openapi.editor.colors.EditorColorsManager;
-import com.intellij.openapi.editor.colors.TextAttributesKey;
 import com.intellij.openapi.editor.event.DocumentAdapter;
 import com.intellij.openapi.editor.event.DocumentEvent;
 import com.intellij.openapi.editor.event.DocumentListener;
-import com.intellij.openapi.editor.markup.EffectType;
 import com.intellij.openapi.editor.markup.TextAttributes;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
@@ -94,7 +91,7 @@ public class Space2 extends AnAction {
 //        attributes = colorsManager.getGlobalScheme().getAttributes(REFERENCE_HYPERLINK_COLOR);
 //        attributes=new TextAttributes((Color)null,JBColor.red, (Color)null, null, 0);
 //        new Color(0, 0, 0,0)
-        attributes=new TextAttributes((Color)null,new JBColor( new Color(255,0,0,200), new Color(255, 255, 255,255)), (Color)null, null, 0);
+        attributes=new TextAttributes((Color)null,new JBColor( new Color(255,0,0,200), new Color(0, 0, 0,0)), (Color)null, null, 0);
     }
 
     //高亮的使用方法
