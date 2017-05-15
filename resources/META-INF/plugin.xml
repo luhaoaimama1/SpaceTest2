@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.zone.unique.plugin.space</id>
     <name>SpaceCheck</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="1149324777@qq.com" url="">YourCompany</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
+      support 2.3 2.4 version<br>
     ]]>
     </change-notes>
 
@@ -28,7 +28,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="SpaceTest2.Space2" class="Space2" text="Space" description="adadas">
+        <action id="SpaceTest2.temple.Space2" class="temple.Space2" text="Space" description="adadas">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <!--<add-to-group group-id="EditMenu" anchor="first"/>-->
             <!--<keyboard-shortcut keymap="$default" first-keystroke="meta I"/>-->
